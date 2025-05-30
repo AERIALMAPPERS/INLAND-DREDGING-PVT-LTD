@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/animate.compat.css" rel="stylesheet" type="text/css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <script defer src="./js/scripts.js"></script>
+    <title>Dredged Company</title>
+</head>
+
+<body>
+    <section id="sec-0">
+        <header class="top">
+            <div class="container">
+                <p>+91 9665828649</p>
+                <p>info@dredging.com</p>
+                <p>Mon-Sat 9:30 Am-6:30 Pm</p>
+                <div class="social">
+                    <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><img src="./Images/f1.webp" alt=""></i></a>
+                </div>
+                <!-- <img src="INLAND LOGO DESIGN.png"> -->
+            </div>
+        </header>
+        <header>
+            <div class="hide" id="searchBar">
+                <input type="search" name="searchBox" id="searchBox"
+                    placeholder="Type your search here..    Press [Esc] to exist">
+            </div>
+            <div class="container">
+
+                <!-- <div class="icon">
+                    <img src="INLAND LOGO DESIGN.png" width="60px" height="60px" >
+                </div> -->
+
+                <h1>
+                    <span>DRED</span>GING
+                    <p>INLAND DREDGING PVT LTD...! </p>
+                </h1>
+
+                <label for="menu"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" id="menu">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="index.html">About</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Equipment</a>
+                    <a href="#">Service</a>
+                    <!-- <a href="#">Why Choose as</a> -->
+                    <a href="./contact.html">Contact</a>
+                    <i class="fa-solid fa-magnifying-glass" id="search"></i>
+                </nav>
+            </div>
+
+        </header>
+
+      
+    </section>
+<br><br>
+
+ <div class="about-detail1">
+            <h2>Dredging Operations</h2>
+            <div id="about-content1">
+                <div class="p">
+                    <p>INLAND DREDGING PVT LTD   is the   company who excavate the material from a water environment. Possible reasons for dredging include improving existing  water features; 
+                        reshaping land and water features to alter  drainage,  navigability, and commercial use; constructing  dams,  dikes, and other controls for streams
+                         and shorelines; and recovering valuable mineral deposits or marine life having commercial value.<br>
+                         Dredging is the removal of bottom sediments from stream, rivers, lakes, costal water and oceans,the resulting dredged material is transported by ship, barge or pipeline to a designated disposal site on  land or in the water.
+                         <br>
+                         Dredging involve project planning, design ,operation involves the removal of sediments that have accumulated since the previous dredging operation.
+
+
+
+                    </p>
+                </div>
+                <div class="img">
+                    <img src="./Images/ABOUT SLIDE1.png" alt="workflow of about section img">
+                </div>
+            </div>
+        </div>
+        <br> <br>
+
+       <div class="about-detail1" id="about-detail">
+    <h2>Dredging Required Areas</h2>
+
+    <div id="about-content1">
+        <div class="p">
+            <ol class="image-list" style="height: 50%; width: 50%;">
+                <li><a href="#" onclick="displayImage(event, './Images/about/AGG.jpeg')">Agriculture</a></li>
+                <li><a href="#" onclick="displayImage(event, './image/about/Raigadf.jpg')">Recreation Water bodies</a></li>
+                <li><a href="#" onclick="displayImage(event, './Images/about/CO.jpg')">Coastal Protection</a></li>
+                <li><a href="#" onclick="displayImage(event, './Images/about/OIL.jpg')">Oil And Gas</a></li>
+                <li><a href="#" onclick="displayImage(event, './image/about/Ratnagiriff.jpg')">Shipyards</a></li>
+                <li><a href="#" onclick="displayImage(event, './Images/JETTY.avif')">Captive Jetties</a></li>
+                <li><a href="#" onclick="displayImage(event, './image/about/Thanef.jpg')">Maritime Boards</a></li>
+                <li><a href="#" onclick="displayImage(event, './Images/about/INLAND.png')">Inland Waterways</a></li>
+                <li><a href="#" onclick="displayImage(event, './Images/about/PORTS.jpg')">Port And Harbours</a></li>
+            </ol>
+        </div>
+        <div class="img">
+            <img id="displayedImage" src="./Images/ABOUT SLIDE2.png" alt="workflow of about section img">
+            <!-- <img id="displayedImage" src="./Images/about/INLAND.jpeg" alt="workflow of about section img"> -->
+        </div>
+    </div>
+</div>
+
+<script>
+function displayImage(event, imageUrl) {
+  event.preventDefault();
+  var img = document.getElementById("displayedImage");
+  img.src = imageUrl;
+}
+</script>
+<br><br>
+    <section id="sec-6">
+        <div class="container">
+            <div class="about">
+                <h1>About Company</h1>
+                <h2>
+                    DREDGING
+                    <p>INLAND DREDGING PVT LTD...!</p>
+                </h2>
+                <p>INLAND DREDGING PVT LTD consectetur adipisicing elit. Delectus eius nisi repudiandae ipsam pariatur,
+                    quos perspiciatis eaque officia rerum odio modi sed fugiat mollitia? Rerum, architecto obcaecati!
+                </p>
+                <div class="icon">
+                    <!-- <img width="50px"height="50 px"> -->
+                    <img src="INLAND LOGO DESIGN.png" width="170px" height=" 170px">
+                </div>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+            </div>
+            <div class="links">
+                <h1>Explor links</h1>
+                <a href="#">Our services</a>
+                <a href="#">Meet our team</a>
+                <a href="#">Forum</a>
+                <a href="#">Help center</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Site visit</a>
+                <a href="#">Terms & Condition</a>
+            </div>
+            <!-- <div class="posts">
+                <h1>Latest posts</h1>
+                <a href="#"><span>20<br>AUG</span>Lorem ipsum dolor sit stiae tempora</a>
+                <a href="#"><span>20<br>AUG</span>Lorem ipsum dolor sit stiae tempora</a>
+                <a href="#"><span>20<br>AUG</span>Lorem ipsum dolor sit stiae tempora</a>
+                <a href="#"><span>20<br>AUG</span>Lorem ipsum dolor sit stiae tempora</a>
+                <a href="#"><span>20<br>AUG</span>Lorem ipsum dolor sit stiae tempora</a>
+            </div> -->
+            <div class="contact">
+                <h1>Contact us</h1>
+                <p>1st Floor, Amrapali Apartments,<br>
+                    Right, Bhusari Colony,<br>
+                    Kothrud,<br>Pune-411038 Maharashtra</p>
+                <p>info@dredging.com</p>
+                <p>+91 9665828649<br>+91 9545748565</p>
+            </div>
+        </div>
+    </section>
+    <section id="sec-7">
+        <div class="container">
+            <p>Copyright @2025 | Designed by <span>Web Developer Team</span></p>
+        </div>
+    </section>
+ 
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init();</script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+   
+</body>
+
+</html>
