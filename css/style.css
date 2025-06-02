@@ -277,10 +277,13 @@ html {
 }
 #sec-1 aside {
     width: 95%;
+    height: 100%;
     margin: 25px auto 0px;
 }
 #sec-1 aside img{
     max-width: 100%;
+    margin-top: 10px;
+    height: 100%;
 }
 
 
@@ -1256,3 +1259,50 @@ padding: 15px;
     margin-top:-29% ;
     border: 2px solid black;
 }
+
+/* ////////////////////////////////////////////////////////////// */
+
+.annnimation {
+  width: 100%;
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  width: 85%;
+  animation: scroll-left 20s linear infinite;
+}
+
+.slider img {
+  height: 80%;
+  width: 18%;
+  flex-shrink: 0;
+  margin-right: 10px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Animation: right to left */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Mobile responsive */
+@media (max-width: 500px) {
+  .annnimation {
+    height: 120px;
+  }
+  .slider img {
+    height: 120px;
+  }
+}
+
+
+/* //////////////////////////////////////////////////////////////////////// */
