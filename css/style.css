@@ -1271,17 +1271,18 @@ padding: 15px;
 
 .slider {
   display: flex;
-  width: 85%;
-  animation: scroll-left 20s linear infinite;
+  width: 65%;
+  animation: scroll-left 12s linear infinite;
 }
 
 .slider img {
-  height: 80%;
+  height: 40%;
   width: 18%;
   flex-shrink: 0;
   margin-right: 10px;
   object-fit: cover;
   border-radius: 8px;
+
 }
 
 /* Animation: right to left */
