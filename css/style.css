@@ -421,18 +421,21 @@ html {
 }
 
 #sec-3 h1 {
-    text-transform: uppercase;
-    font-size: 1.7rem;
-    margin-bottom: 30px;
+    
+     color:black;
+     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: var(--bgaccent);
-    font-weight: 900;
-    text-decoration: underline;
+    /* font-size: 2px; */
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    justify-items: center;
 
 }
 
 #sec-3 h1:hover {
-    color: #3bb5c5;
+   color: #0b857f;
     /* transform: scaleX(1);
     transform-origin: bottom left; */
 }
