@@ -534,7 +534,7 @@ html {
 
 #sec-4 p {
     /* color: var(--txtaccent); */
-    color: #000;
+    color: #0e0c0c;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 0.9rem;
     padding: 0px 6rem;
@@ -1154,6 +1154,7 @@ html {
         width: 48%;
     }
 
+
     #sec-5 h1+p {
         padding: 0px 6rem;
     }
@@ -1419,7 +1420,7 @@ html {
 @media (max-width: 1024px) {
     #sec-4 p,
     #sec-4 .filter {
-        padding: 0 2rem;
+        padding: 1rem;
     }
 
     .video-container {
@@ -1432,7 +1433,8 @@ html {
     }
 
     #sec-4 aside img {
-        width: 100%;
+        width: 90%;
+        height: 80%;
     }
 }
 
@@ -1443,8 +1445,8 @@ html {
     }
 
     #sec-4 p {
-        font-size: 0.85rem;
-        padding: 0 1rem;
+        font-size: 1.2rem;
+        /* padding: 0 1rem; */
     }
 
     #sec-4 .filter {
@@ -1456,7 +1458,7 @@ html {
     #sec-4 .filter a {
         display: block;
         margin: 4px auto;
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding: 5px 12px;
     }
 
@@ -1468,6 +1470,13 @@ html {
         grid-template-columns: 1fr; /* one image per row */
         grid-gap: 15px;
     }
+
+     #sec-4 aside img {
+        width: 100%;
+        height: 80%;
+        border: 2px solid black;
+        transition: transform 0.3s ease;
+    }
 }
 
 /* Small phones */
@@ -1477,19 +1486,31 @@ html {
     }
 
     #sec-4 p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     #sec-4 .filter a {
-        font-size: 0.75rem;
+        font-size: 0.95rem;
         padding: 4px 10px;
     }
 
     #sec-4 aside figcaption {
         font-size: 0.8rem;
     }
+
+     #sec-4 aside img {
+        width: 100%;
+        height: 80%;
+        border: 2px solid black;
+        transition: transform 0.3s ease;
+    }
 }
 @media (min-width: 1024px) and (max-width: 1200px) {
+
+     #sec-4 p,
+    #sec-4 .filter {
+        font-size: 1rem;
+    }
     #sec-4 aside {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* 3 images per row */
@@ -1500,7 +1521,7 @@ html {
 
     #sec-4 aside img {
         width: 100%;
-        height: auto;
+        height: 80%;
         border: 2px solid black;
         transition: transform 0.3s ease;
     }
@@ -1523,7 +1544,7 @@ html {
   /* Video container on left */
   .video-container {
     flex: 1 1 60%; /* video takes about 60% width */
-    max-width: 60%;
+    max-width: 45%;
     margin-left: 0; /* remove previous negative margin */
   }
 
@@ -1531,8 +1552,8 @@ html {
   #sec-4 aside {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* show only 1 image per row to have 2 images visible */
-    gap: 20px;
-    flex: 1 1 40%; /* aside takes about 35% width */
+    gap: 10px;
+    flex: 1 1 30%; /* aside takes about 35% width */
     max-width: 80%;
     overflow: hidden; /* hide overflow */
   }
@@ -1540,7 +1561,8 @@ html {
   /* Limit to show only first two images */
   #sec-4 aside img {
     display: block;
-    width: 60%;
+    width: 95%;
+    height: 85%;
     border: 2px solid black;
     transition: transform 0.3s ease;
   }
